@@ -496,7 +496,8 @@
         </profile>
     </profiles>
 	<!-- add by banyibanyi-->
-	<repository>
+	<distributionManagement>
+     <repository>
 		<snapshots>
 		<enabled>false</enabled>
 		</snapshots>
@@ -504,5 +505,6 @@
 		<name>Maven Repository Switchboard</name>
 		<url>http://repo1.maven.org/maven2</url>
 	</repository>
+</distributionManagement>
 	<!-- end -->
 </project>
